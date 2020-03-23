@@ -26,19 +26,28 @@ while True:
     # send massege to client 
     c.send(b2)
     ############## send message 3
-    msg3="  Sending multiple messages  "
+    msg3="  The next is a picture of a dog: "
     b3 = bytes(msg3, encoding = 'utf-8')
     # send massege to client 
     c.send(b3)
     ############### send message 4
-    msg4 =" ^^^^^^^^^^^^^ "
+    msg4 ="O_______/"
     b4 = bytes(msg4, encoding = 'utf-8')
     # send massege to client 
     c.send(b4)
-    ############## send message 5
-    msg5 ="   BaBye    "
+    msg5 ='                                                                                                               '
     b5 = bytes(msg5, encoding = 'utf-8')
     # send massege to client 
     c.send(b5)
+	############## send message 6
+    msg6 =" | | | |"
+    b6 = bytes(msg6, encoding = 'utf-8')
+    # send massege to client 
+    c.send(b6)
+	############## send message 7
+    msg7 ="    Okay......Bye!!!"
+    b7 = bytes(msg7, encoding = 'utf-8')
+    # send massege to client 
+    c.send(b7)
     # Close the connection with the client 
     c.close() 
